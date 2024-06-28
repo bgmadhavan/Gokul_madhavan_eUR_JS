@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="calculator.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" onsubmit="calculate(event)">
+      <label for="operand1">
+        <input type="text" id="operand1" />
+      </label>
+      <label for="operator">
+        <input style="width: 10px" type="text" id="operator" />
+      </label>
+      <label for="operand2">
+        <input type="text" id="operand2" />
+      </label>
+      <button type="submit">Evaluate</button>
+    </form>
+    <div>
+      <p id="result"></p>
+    </div>
+  </body>
+</html>

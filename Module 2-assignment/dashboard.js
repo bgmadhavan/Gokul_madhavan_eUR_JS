@@ -33,7 +33,7 @@ function displayUser(){
             detail.textContent = book;
 
             const removeBtn = document.createElement('button');
-            removeBtn.textContent = 'remove';
+            removeBtn.textContent = 'return';
             removeBtn.addEventListener('click',()=> removeUserBook(book));
 
             detail.appendChild(removeBtn);

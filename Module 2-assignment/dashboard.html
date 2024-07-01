@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./dashboard.js"></script>
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div id="dash-root">
+      <div id="user-detail"></div>
+      <div id="books">
+        <h2>books-list</h2>
+        <div>
+          <label for="option1">
+            <input
+              type="radio"
+              id="option1"
+              name="options"
+              value="fiction"
+              checked
+            />fiction
+          </label>
+
+          <label for="option2"
+            ><input
+              type="radio"
+              id="option2"
+              name="options"
+              value="non-fiction"
+            />non-fiction</label
+          >
+        </div>
+
+        <div id="booklist"></div>
+      </div>
+      <div id="addbooks">
+        <h3>add a book</h3>
+        <input type="text" id="bookname" placeholder="bookname" />
+        <input type="text" id="genre" placeholder="genre" />
+        <button type="submit" onclick="addBook()">add</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h4>Validation form</h4>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="password"
+          placeholder="Enter your username"
+          required
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+          required
+        />
+        <div class="buttons">
+          <button id="countButton" type="button">
+            count : <span id="count">0</span>
+          </button>
+          <button type="submit" id="validate">Validate</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
